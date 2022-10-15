@@ -9,7 +9,7 @@ pipeline{
                 git 'https://github.com/rayudusubrahmanyam12/sonarqube.git'
             }
         }
-        stage("Build Artifact") {
+        /*stage("Build Artifact") {
             steps{
                 sh "mvn clean package"
             }
@@ -28,5 +28,6 @@ pipeline{
                 }
             }
         }
+	*/
     }
 }
